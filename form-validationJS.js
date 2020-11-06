@@ -54,7 +54,7 @@ form.addEventListener('submit', (e) => {
 
     // if(username.value === ''){
     //     showError(username, 'Username is Required');
-    // }else{  
+    // }else{   
     //     showSuccess(username);
     // }
 
