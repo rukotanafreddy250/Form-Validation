@@ -12,7 +12,7 @@ function showError(input, message){
     const small = formControl.querySelector('small');
     small.innerText = message;
 }
-
+ 
 // add event listeners
 form.addEventListener('submit', (e) => {
     e.preventDefault();
