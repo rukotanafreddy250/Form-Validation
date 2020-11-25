@@ -11,7 +11,7 @@ function showError(input, message){
     formControl.className = 'form-control error';
     const small = formControl.querySelector('small');
     small.innerText = message;
-}
+}         
 
 function showSuccess(input) {
     const formControl = input.parentElement;
