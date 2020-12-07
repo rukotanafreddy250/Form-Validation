@@ -63,8 +63,8 @@ form.addEventListener('submit', (e) => {
     checkRequired([username, email, password, password2]);
     checkLength(username, 0, 5);
     checkLength(password, 0, 5);
-    checkLength(password2, 0, 5);
-    // if(username.value === ''){
+    checkLength(password2, 0, 5);    
+    // if(username.value === ''){         
     //     showError(username, 'Username is Required');
     // }else{   
     //     showSuccess(username);
@@ -91,7 +91,7 @@ form.addEventListener('submit', (e) => {
     // }
 });
 
-     
+           
 
 
 
