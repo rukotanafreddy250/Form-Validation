@@ -25,7 +25,7 @@ function emailValidator(email){
     return re.test(String(email).toLowerCase());
 }
 
-
+      
 // check all fields
     function checkRequired(inputArr){
         inputArr.forEach(function(input){
@@ -37,7 +37,7 @@ function emailValidator(email){
                 showSuccess(input);
             }
         });
-    }
+    }    
 
 // getFieldName
 function getFieldName(input){
@@ -59,7 +59,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
 
     console.log(username.value);
-
+           
     checkRequired([username, email, password, password2]);
     checkLength(username, 0, 5);
     checkLength(password, 0, 5);
