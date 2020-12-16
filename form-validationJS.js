@@ -24,7 +24,7 @@ function emailValidator(email){
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 }
-
+           
       
 // check all fields
     function checkRequired(inputArr){
@@ -52,7 +52,7 @@ function checkLength(input, min, max) {
         showSuccess(input);
     }
 }
-
+      
 
 // add event listeners
 form.addEventListener('submit', (e) => {
