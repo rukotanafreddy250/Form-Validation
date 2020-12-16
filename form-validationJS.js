@@ -51,13 +51,13 @@ function checkLength(input, min, max) {
     }else{
         showSuccess(input);
     }
-}
+}    
       
-
+      
 // add event listeners
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-
+      
     console.log(username.value);
            
     checkRequired([username, email, password, password2]);
