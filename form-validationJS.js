@@ -29,14 +29,14 @@ function emailValidator(email){
 // check all fields
     function checkRequired(inputArr){
         inputArr.forEach(function(input){
-            console.log(input);
-            console.log(input.id);
+            console.log(input);   
+            console.log(input.id);   
             if(input.value.trim() === ""){
                 showError(input, ` ${getFieldName(input)} is Required`);
             }else{
-                showSuccess(input);
+                showSuccess(input);     
             }
-        });
+        });   
     }    
 
 // getFieldName
