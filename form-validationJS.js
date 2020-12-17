@@ -50,7 +50,7 @@ function checkLength(input, min, max) {
         showError(input, ` ${getFieldName(input)} must be at least ${max} characters`);
     }else{
         showSuccess(input);
-    }
+    }    
 }    
       
       
@@ -58,7 +58,7 @@ function checkLength(input, min, max) {
 form.addEventListener('submit', (e) => {
     e.preventDefault();
       
-    console.log(username.value);
+    console.log(username.value);      
            
     checkRequired([username, email, password, password2]);
     checkLength(username, 0, 5);
