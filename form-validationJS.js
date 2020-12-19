@@ -27,8 +27,8 @@ function emailValidator(email){
            
       
 // check all fields
-    function checkRequired(inputArr){
-        inputArr.forEach(function(input){
+    function checkRequired(inputArr){      
+        inputArr.forEach(function(input){      
             console.log(input);   
             console.log(input.id);   
             if(input.value.trim() === ""){
