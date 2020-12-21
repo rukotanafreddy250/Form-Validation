@@ -35,15 +35,15 @@ function emailValidator(email){
                 showError(input, ` ${getFieldName(input)} is Required`);
             }else{
                 showSuccess(input);     
-            }
-        });   
+            }    
+        });       
     }    
 
 // getFieldName
 function getFieldName(input){
     return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
-
+    
 // getLengthForChars
 function checkLength(input, min, max) {
     if(input.value.length < min){
