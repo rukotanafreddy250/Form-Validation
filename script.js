@@ -67,7 +67,7 @@ function checkPasswordsMatch(input1, input2) {
 function getFieldName(input) {
   return input.id.charAt(0).toUpperCase() + input.id.slice(1);
 }
-
+   
 // Event listeners
 form.addEventListener('submit', function(e) {
   e.preventDefault();
@@ -77,4 +77,4 @@ form.addEventListener('submit', function(e) {
   checkLength(password, 6, 25);
   checkEmail(email);
   checkPasswordsMatch(password, password2);
-});
+});  
